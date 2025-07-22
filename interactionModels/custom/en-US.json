@@ -1,0 +1,83 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "CheapSharkIntent",
+          "samples": [
+            "video game sales",
+            "steam game sales",
+            "pc game sales",
+            "game sales",
+            "cheapshark sales",
+            "cheapshark deals",
+            "game deals",
+            "pc game deals",
+            "video game deals",
+            "steam game deals"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "salePercent",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "CheapSharkPercentFilterIntent",
+          "samples": [
+            "steam game deals above {salePercent} percent",
+            "video game deals above {salePercent} percent",
+            "pc game deals above {salePercent} percent",
+            "game deals above {salePercent} percent",
+            "cheapshark deals above {salePercent} percent",
+            "cheapshark sales above {salePercent} percent",
+            "game sales above {salePercent} percent",
+            "pc game sales above {salePercent} percent",
+            "steam game sales above {salePercent} percent",
+            "video game sales above {salePercent} percent"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "CheapSharkScoreFilterIntent",
+          "samples": [
+            "video game sales with a high rating",
+            "steam game sales with a high rating",
+            "pc game sales with a high rating",
+            "game sales with a high rating",
+            "cheapshark slaes with a high rating",
+            "cheapshark deals with a high rating",
+            "game deals with a high rating",
+            "pc game deals with a high rating",
+            "video game deals with a high rating",
+            "steam game deals with a high rating"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "cheapshark deals"
+    }
+  }
+}
