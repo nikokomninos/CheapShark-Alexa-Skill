@@ -26,4 +26,4 @@ A simple skill for the Amazon Alexa family of devices to retrieve Steam game dea
 
 | CheapSharkIntent | CheapSharkPercentFilterIntent | CheapSharkScoreFilterIntent |
 | --- | --- | --- |
-| ![1](./images/1.png) | | ![2](./images/2.png) | ![3](./images/3.png) |
+| ![1](./images/1.png) | ![2](./images/2.png) | ![3](./images/3.png) |
